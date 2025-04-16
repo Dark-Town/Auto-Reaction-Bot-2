@@ -1,8 +1,8 @@
 import os
 
-API_ID = os.getenv("API_ID", "")
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_ID = os.getenv("24413166", "")
+API_HASH = os.getenv("7d43dfedf3baa98292adb7b3f69cd6bd", "")
+BOT_TOKEN = os.getenv("8104653263:AAGBJug5XeN09C4h-bkjTjdSDwzHNJHB9vc", "")
 ADMIN = int(os.getenv("ADMIN", ""))
 
 LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
