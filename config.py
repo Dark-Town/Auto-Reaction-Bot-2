@@ -7,8 +7,8 @@ ADMIN = int(os.getenv("ADMIN", ""))
 
 LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
 
-DB_URI = os.getenv("DB_URI", "")
-DB_NAME = os.getenv("DB_NAME", "")
+DB_URI = os.getenv("mongodb+srv://thelastcroneb:Tcroneb/2025@jinwoo.zvygv0t.mongodb.net/?retryWrites=true&w=majority&appName=jinwoo", "")
+DB_NAME = os.getenv("jinwoo", "")
 
 IS_FSUB = bool(os.environ.get("FSUB", False)) # Set "True" For Force Subscribe Enable
 AUTH_CHANNELS = os.environ.get("AUTH_CHANNEL", "") # Add Multiple Channels iD By Space
